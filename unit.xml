@@ -1,9 +1,9 @@
 <?xml version="1.0"?>
-<testsuite name="HeadlessChrome 78.0.3904 (Linux 0.0.0)" package="unit" timestamp="2021-01-24T15:55:27" id="0" hostname="workspaceumumqs6u2j1mu77u.ws-5db59495f5-8shbb" tests="4" errors="1" failures="4" time="0.394">
+<testsuite name="HeadlessChrome 78.0.3904 (Linux 0.0.0)" package="unit" timestamp="2021-01-24T16:00:12" id="0" hostname="workspaceumumqs6u2j1mu77u.ws-5db59495f5-8shbb" tests="4" errors="1" failures="4" time="0.38">
   <properties>
     <property name="browser.fullName" value="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/78.0.3904.108 Safari/537.36"/>
   </properties>
-  <testcase name="AppComponent Update quantity in cart" time="0.254" classname=".AppComponent">
+  <testcase name="AppComponent Update quantity in cart" time="0.265" classname=".AppComponent">
     <failure type="">Error: Expected &lt;button _ngcontent-a-c41 data-test-id="btn-item-add" class="x-small outlined"&gt;...&lt;/button&gt; to be null.
     at &lt;Jasmine&gt;
     at http://localhost:9876/_karma_webpack_/src/app/app.component.spec.ts:101:26
@@ -48,7 +48,7 @@
     at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:323:1)
 </failure>
   </testcase>
-  <testcase name="AppComponent Add item to cart" time="0.042" classname=".AppComponent">
+  <testcase name="AppComponent Add item to cart" time="0.05" classname=".AppComponent">
     <failure type="">Error: Expected &lt;input _ngcontent-a-c41 type="number" data-test-id="cart-quantity" class="cart-quantity"&gt; to be falsy.
     at &lt;Jasmine&gt;
     at http://localhost:9876/_karma_webpack_/src/app/app.component.spec.ts:71:26
@@ -81,7 +81,7 @@
     at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:323:1)
 </failure>
   </testcase>
-  <testcase name="AppComponent Performs Series of Actions" time="0.068" classname=".AppComponent">
+  <testcase name="AppComponent Performs Series of Actions" time="0.038" classname=".AppComponent">
     <failure type="">Error: Expected &lt;button _ngcontent-a-c41 data-test-id="btn-item-add" class="x-small outlined"&gt;...&lt;/button&gt; to be falsy.
     at &lt;Jasmine&gt;
     at http://localhost:9876/_karma_webpack_/src/app/app.component.spec.ts:181:26
@@ -120,7 +120,7 @@
     at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:323:1)
 </failure>
   </testcase>
-  <testcase name="AppComponent Remove item from cart" time="0.03" classname=".AppComponent">
+  <testcase name="AppComponent Remove item from cart" time="0.027" classname=".AppComponent">
     <failure type="">Error: Expected &lt;button _ngcontent-a-c41 data-test-id="btn-item-add" class="x-small outlined"&gt;...&lt;/button&gt; to be falsy.
     at &lt;Jasmine&gt;
     at http://localhost:9876/_karma_webpack_/src/app/app.component.spec.ts:144:26
