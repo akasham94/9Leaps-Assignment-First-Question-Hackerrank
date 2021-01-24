@@ -1,0 +1,160 @@
+<?xml version="1.0"?>
+<testsuite name="HeadlessChrome 78.0.3904 (Linux 0.0.0)" package="unit" timestamp="2021-01-24T15:55:27" id="0" hostname="workspaceumumqs6u2j1mu77u.ws-5db59495f5-8shbb" tests="4" errors="1" failures="4" time="0.394">
+  <properties>
+    <property name="browser.fullName" value="Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) HeadlessChrome/78.0.3904.108 Safari/537.36"/>
+  </properties>
+  <testcase name="AppComponent Update quantity in cart" time="0.254" classname=".AppComponent">
+    <failure type="">Error: Expected &lt;button _ngcontent-a-c41 data-test-id="btn-item-add" class="x-small outlined"&gt;...&lt;/button&gt; to be null.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/app.component.spec.ts:101:26
+    at &lt;Jasmine&gt;
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+</failure>
+    <failure type="">Error: Expected '' to equal '1'.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/app.component.spec.ts:102:32
+    at &lt;Jasmine&gt;
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+</failure>
+    <failure type="">Error: Expected '' to equal '2'.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/app.component.spec.ts:109:32
+    at &lt;Jasmine&gt;
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+</failure>
+    <failure type="">Error: Expected '' to equal '3'.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/app.component.spec.ts:114:32
+    at &lt;Jasmine&gt;
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+</failure>
+    <failure type="">Error: Expected null to be truthy.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/app.component.spec.ts:117:22
+    at &lt;Jasmine&gt;
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+</failure>
+    <failure type="">TypeError: Cannot read property 'innerHTML' of null
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/app.component.spec.ts:119:29
+    at &lt;Jasmine&gt;
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:364:1)
+    at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:292:1)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:363:1)
+    at Zone.run (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:123:1)
+    at http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:857:1
+    at ZoneDelegate.invokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:399:1)
+    at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:323:1)
+</failure>
+  </testcase>
+  <testcase name="AppComponent Add item to cart" time="0.042" classname=".AppComponent">
+    <failure type="">Error: Expected &lt;input _ngcontent-a-c41 type="number" data-test-id="cart-quantity" class="cart-quantity"&gt; to be falsy.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/app.component.spec.ts:71:26
+    at &lt;Jasmine&gt;
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+</failure>
+    <failure type="">Error: Expected &lt;button _ngcontent-a-c41 data-test-id="btn-item-add" class="x-small outlined"&gt;...&lt;/button&gt; to be null.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/app.component.spec.ts:80:26
+    at &lt;Jasmine&gt;
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+</failure>
+    <failure type="">Error: Expected null to be truthy.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/app.component.spec.ts:82:22
+    at &lt;Jasmine&gt;
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+</failure>
+    <failure type="">TypeError: Cannot read property 'innerHTML' of null
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/app.component.spec.ts:85:29
+    at &lt;Jasmine&gt;
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:364:1)
+    at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:292:1)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:363:1)
+    at Zone.run (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:123:1)
+    at http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:857:1
+    at ZoneDelegate.invokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:399:1)
+    at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:323:1)
+</failure>
+  </testcase>
+  <testcase name="AppComponent Performs Series of Actions" time="0.068" classname=".AppComponent">
+    <failure type="">Error: Expected &lt;button _ngcontent-a-c41 data-test-id="btn-item-add" class="x-small outlined"&gt;...&lt;/button&gt; to be falsy.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/app.component.spec.ts:181:26
+    at &lt;Jasmine&gt;
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+</failure>
+    <failure type="">Error: Expected &lt;button _ngcontent-a-c41 data-test-id="btn-item-add" class="x-small outlined"&gt;...&lt;/button&gt; to be falsy.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/app.component.spec.ts:197:26
+    at &lt;Jasmine&gt;
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+</failure>
+    <failure type="">Error: Expected null to be truthy.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/app.component.spec.ts:205:23
+    at &lt;Jasmine&gt;
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+</failure>
+    <failure type="">Error: Expected null to be truthy.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/app.component.spec.ts:206:23
+    at &lt;Jasmine&gt;
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+</failure>
+    <failure type="">TypeError: Cannot read property 'innerHTML' of null
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/app.component.spec.ts:207:56
+    at &lt;Jasmine&gt;
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:364:1)
+    at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:292:1)
+    at ZoneDelegate.invoke (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:363:1)
+    at Zone.run (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:123:1)
+    at http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:857:1
+    at ZoneDelegate.invokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-evergreen.js:399:1)
+    at ProxyZoneSpec.push../node_modules/zone.js/dist/zone-testing.js.ProxyZoneSpec.onInvokeTask (http://localhost:9876/_karma_webpack_/node_modules/zone.js/dist/zone-testing.js:323:1)
+</failure>
+  </testcase>
+  <testcase name="AppComponent Remove item from cart" time="0.03" classname=".AppComponent">
+    <failure type="">Error: Expected &lt;button _ngcontent-a-c41 data-test-id="btn-item-add" class="x-small outlined"&gt;...&lt;/button&gt; to be falsy.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/app.component.spec.ts:144:26
+    at &lt;Jasmine&gt;
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+</failure>
+    <failure type="">Error: Expected &lt;button _ngcontent-a-c41 data-test-id="btn-quantity-add" class="x-small icon-only outlined"&gt;...&lt;/button&gt; to be falsy.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/app.component.spec.ts:153:20
+    at &lt;Jasmine&gt;
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+</failure>
+    <failure type="">Error: Expected &lt;button _ngcontent-a-c41 data-test-id="btn-quantity-subtract" class="x-small icon-only outlined"&gt;...&lt;/button&gt; to be falsy.
+    at &lt;Jasmine&gt;
+    at http://localhost:9876/_karma_webpack_/src/app/app.component.spec.ts:154:25
+    at &lt;Jasmine&gt;
+    at fulfilled (http://localhost:9876/_karma_webpack_/node_modules/tslib/tslib.es6.js:71:42)
+</failure>
+  </testcase>
+  <system-out>
+    <![CDATA[HeadlessChrome 78.0.3904 (Linux 0.0.0) ERROR: ''h8k-navbar' is not a known element:
+1. If 'h8k-navbar' is an Angular component, then verify that it is part of this module.
+2. If 'h8k-navbar' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.'
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) ERROR: ''h8k-navbar' is not a known element:
+1. If 'h8k-navbar' is an Angular component, then verify that it is part of this module.
+2. If 'h8k-navbar' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.'
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) ERROR: ''h8k-navbar' is not a known element:
+1. If 'h8k-navbar' is an Angular component, then verify that it is part of this module.
+2. If 'h8k-navbar' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.'
+,HeadlessChrome 78.0.3904 (Linux 0.0.0) ERROR: ''h8k-navbar' is not a known element:
+1. If 'h8k-navbar' is an Angular component, then verify that it is part of this module.
+2. If 'h8k-navbar' is a Web Component then add 'CUSTOM_ELEMENTS_SCHEMA' to the '@NgModule.schemas' of this component to suppress this message.'
+
+]]>
+  </system-out>
+  <system-err/>
+</testsuite>
