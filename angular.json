@@ -129,6 +129,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "hackershop"
+    }
+  },
+  "defaultProject": "hackershop",
+  "cli": {
+    "analytics": "f7def466-0403-4280-a872-623e988511f0"
+  }
 }

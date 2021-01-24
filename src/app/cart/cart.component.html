@@ -15,8 +15,8 @@
     <tr *ngFor="let cartItem of cart?.items; let idx = index;" id="cart-item-{{idx}}"
         class="slide-up-fade-in">
       <td>{{idx + 1}}.</td>
-      <td class="name" data-test-id="cart-item-name">{{cartItem.item}}</td>
-      <td class="numeric quantity" data-test-id="cart-item-quantity">{{cartItem.quantity}}</td>
+      <td class="name" data-test-id="cart-item-name">{{cartItem.name}}</td>
+      <td class="numeric quantity" data-test-id="cart-item-quantity">{{cartItem.cartQuantity}}</td>
     </tr>
     </tbody>
   </table>

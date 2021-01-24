@@ -10,6 +10,7 @@ export class CartComponent {
   @Input() cart: Cart;
 
   constructor() {
+    
   }
 
 }

@@ -7,19 +7,19 @@
         <p class="ma-0 mt-8 text-center">${{product.price}}</p>
       </div>
       <div class="card-actions justify-content-center pa-4">
-        <button class="x-small outlined" data-test-id="btn-item-add">
+        <button class="x-small outlined" *ngIf = 'product.cartQuantity == 0' (click)="product.cartQuantity = 1;onAddToCart.emit(product)" data-test-id="btn-item-add">
           Add To Cart
         </button>
 
         <div class="layout-row justify-content-between align-items-center">
-          <button class="x-small icon-only outlined"
-                  data-test-id="btn-quantity-subtract">
-            <i class="material-icons">remove</i>
+          <button class="x-small icon-only outlined" *ngIf = 'product.cartQuantity != 0' (click)="product.cartQuantity = product.cartQuantity - 1;onQuantityUpdate.emit(product)"
+                  data-test-id="btn-quantity-subtract"> 
+            <i class="material-icons">remove</i> 
           </button>
 
-          <input type="number" class="cart-quantity" data-test-id="cart-quantity"/>
+          <input type="number" *ngIf = 'product.cartQuantity != 0' [(ngModel)] = "product.cartQuantity" class="cart-quantity" data-test-id="cart-quantity"/>
 
-          <button class="x-small icon-only outlined"
+          <button class="x-small icon-only outlined" *ngIf = 'product.cartQuantity != 0' (click)="product.cartQuantity = product.cartQuantity + 1;onQuantityUpdate.emit(product)"
                   data-test-id="btn-quantity-add">
             <i class="material-icons">add</i>
           </button>

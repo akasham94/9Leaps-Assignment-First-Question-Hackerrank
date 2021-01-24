@@ -8,12 +8,12 @@ import {Cart, Product} from "../types";
 })
 export class AppComponent {
   products: Product[];
-  cart: Cart;
+  cart: any;
 
   constructor() {
     this.cart = {
       items: []
-    } as Cart
+    } 
   }
 
   ngOnInit() {
@@ -26,11 +26,12 @@ export class AppComponent {
   }
 
   addToCart(product: Product) {
-      
+    console.log(product.name);
+    this.cart.items.push(product) 
   }
 
   updateCart(product: Product) {
-      
+    this.cart.items = this.cart.items.filter((p) => p.cartQuantity>0)
   }
 }
 

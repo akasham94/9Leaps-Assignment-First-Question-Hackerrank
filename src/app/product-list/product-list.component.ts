@@ -12,6 +12,8 @@ export class ProductListComponent implements OnInit {
   @Output() onQuantityUpdate: EventEmitter<Product> = new EventEmitter();
 
   ngOnInit() {}
+  
+
 }
 
 
